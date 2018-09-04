@@ -5,8 +5,24 @@ import com.zyang25.model.Node;
 public class RevertLinkedList {
 	
 	// 1 -> 2 -> 3 -> 4
-	public void revert(Node n) {
+	// 4 -> 3 -> 2 -> 1
+	public Node revert(Node n) {
+		if(n == null)
+			return n;
 		
+		Node curr = n;
+		Node prev = null;
+		Node next = null;
+		
+		while(curr != null) {
+			next = curr.getNext();
+			
+			curr.setNext(prev);
+			
+			
+		}
+		
+		return prev;
 	}
 	
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package leetcode;
+package com.zyang25.model;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
