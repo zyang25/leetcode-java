@@ -21,7 +21,7 @@ import java.util.Arrays;
 	Output: 0
 	
  * */
-public class L35_Search_Insert_Position {
+public class L35_SearchInsertPosition {
 	
 	public static class Solution {
 

@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
-import com.zyang25.code.L35_Search_Insert_Position;
+import com.zyang25.code.L35_SearchInsertPosition;
 
 class L35Test {
 	private int target = 0;
@@ -21,7 +21,7 @@ class L35Test {
 		
 		target = 0; 
 		
-		int r = L35_Search_Insert_Position.Solution.searchInsert(nums, target);
+		int r = L35_SearchInsertPosition.Solution.searchInsert(nums, target);
 		
 		assertEquals(0, r);
 	}
@@ -32,7 +32,7 @@ class L35Test {
 		
 		target = 1;
 		
-		int r = L35_Search_Insert_Position.Solution.searchInsert(nums, target);
+		int r = L35_SearchInsertPosition.Solution.searchInsert(nums, target);
 		
 		assertEquals(0, r);
 	}
@@ -43,7 +43,7 @@ class L35Test {
 		
 		target = 2;
 		
-		int r = L35_Search_Insert_Position.Solution.searchInsert(nums, target);
+		int r = L35_SearchInsertPosition.Solution.searchInsert(nums, target);
 		
 		assertEquals(2, r);
 	}
@@ -54,7 +54,7 @@ class L35Test {
 		
 		target = 5;
 		
-		int r = L35_Search_Insert_Position.Solution.searchInsert(nums, target);
+		int r = L35_SearchInsertPosition.Solution.searchInsert(nums, target);
 		
 		assertEquals(5, r);
 	}
