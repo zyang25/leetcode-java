@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
-import com.zyang25.code.L35_SearchInsertPosition;
+import com.zyang25.code.array.L35_SearchInsertPosition;
 
 class L35Test {
 	private int target = 0;

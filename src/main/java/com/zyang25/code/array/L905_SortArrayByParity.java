@@ -1,4 +1,4 @@
-package com.zyang25.code;
+package com.zyang25.code.array;
 
 public class L905_SortArrayByParity {
 	public static void main(String[] args) {
