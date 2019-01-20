@@ -1,7 +1,6 @@
 package com.zyang25.code.array;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 // 2 11 7 15 target 27
 public class L1TwoSum {
