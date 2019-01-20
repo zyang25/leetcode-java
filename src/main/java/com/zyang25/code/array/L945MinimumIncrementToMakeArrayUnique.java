@@ -2,6 +2,7 @@ package com.zyang25.code.array;
 
 import java.util.Arrays;
 
+// solution https://blog.csdn.net/qq_17550379/article/details/84985831
 public class L945MinimumIncrementToMakeArrayUnique {
 	public static void main(String[] args) {
 	}
