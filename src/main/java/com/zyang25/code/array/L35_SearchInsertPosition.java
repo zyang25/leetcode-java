@@ -1,7 +1,5 @@
 package com.zyang25.code.array;
 
-import java.util.Arrays;
-
 /*
  *  Example 1:
 

@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L1TwoSum",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.array.L1TwoSum",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L1TwoSum",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.array.L1TwoSum",
+            "projectName": "leetcode"
+        }
+    ]
+}
