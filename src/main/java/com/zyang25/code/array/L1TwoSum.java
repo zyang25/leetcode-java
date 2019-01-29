@@ -6,6 +6,8 @@ import java.util.HashMap;
 public class L1TwoSum {
 	public static void main(String[] args) {
 		System.out.println("Hello world");
+		L1TwoSum app = new L1TwoSum();
+		app.twoSum(new int[]{1,2,3}, 5);
 	}
 	
     public int[] twoSum(int[] nums, int target) {
