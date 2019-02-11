@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - L402RemoveKDigits",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.algorithm.L402RemoveKDigits",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L455AssignCookies",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.algorithm.L455AssignCookies",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L206ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.linkedlist.L206ReverseLinkedList",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L189RotateArray",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.array.L189RotateArray",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L1TwoSum",
             "request": "launch",
             "mainClass": "com.zyang25.code.array.L1TwoSum",
