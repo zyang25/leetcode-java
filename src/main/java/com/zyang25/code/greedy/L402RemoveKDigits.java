@@ -1,4 +1,4 @@
-package com.zyang25.code.algorithm;
+package com.zyang25.code.greedy;
 
 import java.util.Stack;
 
