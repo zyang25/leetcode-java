@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - L121BestTimetoBuyandSellStock",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.greedy.L121BestTimetoBuyandSellStock",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L402RemoveKDigits",
             "request": "launch",
             "mainClass": "com.zyang25.code.algorithm.L402RemoveKDigits",
