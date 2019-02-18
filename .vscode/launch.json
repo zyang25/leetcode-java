@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - L20ValidParentheses",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.stack.L20ValidParentheses",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L984StringWithoutAAAorBBB",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.greedy.L984StringWithoutAAAorBBB",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L122BestTimetoBuyandSellStockII",
             "request": "launch",
             "mainClass": "com.zyang25.code.greedy.L122BestTimetoBuyandSellStockII",
