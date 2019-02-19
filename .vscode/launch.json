@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - L856ScoreOfParentheses",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.stack.L856ScoreOfParentheses",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L20ValidParentheses",
             "request": "launch",
             "mainClass": "com.zyang25.code.stack.L20ValidParentheses",
