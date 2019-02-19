@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - L977SquaresofaSortedArray",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.sort.L977SquaresofaSortedArray",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L856ScoreOfParentheses",
             "request": "launch",
             "mainClass": "com.zyang25.code.stack.L856ScoreOfParentheses",
