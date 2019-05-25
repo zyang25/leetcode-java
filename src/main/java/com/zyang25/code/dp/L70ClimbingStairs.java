@@ -1,6 +1,7 @@
 package com.zyang25.code.dp;
 
 import java.util.HashMap;
+import java.util.Map;
 
 class L70ClimbingStairs {
     public static void main(String[] args) {
@@ -10,25 +11,20 @@ class L70ClimbingStairs {
 
     public int climbStairs(int n) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-
-        return climb(n);
+        return climb(n, map);
     }
     
-    private int climb(int n) {
+    private int climb(int n, HashMap<Integer,Integer> m) {
         if(n == 0)
             return 1;
 
         if(n < 0)
             return 0;
-        
-        // if(map.containsKey(n)){
-        //     if((int)map.get(n) == n - step)
-        //         return 0;
-        //     else if((int)map.get(n) == n - step)
-        //         return 0;
-        // }
-        // if(n-step >= 0)
-        //     map.put(n, n-step);
-        return climb(n - 1) + climb(n - 2);
+        if(!m.containsKey(n)){
+            int r = climb(n - 1, m) + climb(n - 2, m);
+            m.put(n, r);
+            return r;
+        } else
+            return (int)m.get(n);
     }
 }

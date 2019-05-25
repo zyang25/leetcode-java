@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Example",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.other.Example",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L53MaximumSubarray",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.dp.L53MaximumSubarray",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - L70ClimbingStairs",
+            "request": "launch",
+            "mainClass": "com.zyang25.code.dp.L70ClimbingStairs",
+            "projectName": "leetcode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - L977SquaresofaSortedArray",
             "request": "launch",
             "mainClass": "com.zyang25.code.sort.L977SquaresofaSortedArray",
